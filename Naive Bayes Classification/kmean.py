@@ -9,8 +9,8 @@ print("Input Data dan Shape")
 print(data.shape)
 data.head()
 
-f1 = data ['v1'].values
-f2 = data ['v2'].values
+f1 = data ['f1'].values
+f2 = data ['f2'].values
 X = np.array(list(zip(f1, f2)))
 
 k = 2
